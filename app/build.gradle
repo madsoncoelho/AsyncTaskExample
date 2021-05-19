@@ -29,8 +29,10 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     //TODO: 002 Incluir a biblioteca com.squareup.okhttp3:okhttp:4.9.0 https://github.com/square/okhttp
+    implementation "com.squareup.okhttp3:okhttp:4.9.0"
 
     //TODO: 003 Incluir a biblioteca com.google.code.gson:gson:2.8.6 https://github.com/google/gson
+    implementation "com.google.code.gson:gson:2.8.6"
     
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'androidx.appcompat:appcompat:1.2.0'
@@ -39,7 +41,5 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
-
-
 
 }
