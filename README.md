@@ -1,9 +1,10 @@
-# Understanding the Android Threading Model
+# Async Task Example
+Projeto desenvolvido no curso "Trabalhando com processamento assíncrono no Android" do bootcamp everis Kotlin Developer da [Digital Innovation One](https://digitalinnovation.one).
 
-Exercício prático sobre os modelos de Threads no Android exemplificado com a implementação de AsyncTask
+O aplicativo faz requisições à API [http://api.open-notify.org](http://api.open-notify.org) em uma Async Task, para evitar que a Thread UI principal seja bloqueada e interrompa a interação com o usuário. Depois que Async Task concluir o processamento em background, os dados de retorno da requisição são mostradas na Thread principal para o usuário.
 
-## Orientações 
+## Instruções
+Faça o clone ou download do repositório no seu computador e execute a aplicação no Android Studio.
 
-Realize o clone do projeto e faça a mudança para a branch *exercise-asynctask*, nesta branch existem alguns TODO's que você deve seguir para completar o exercício,
-se tiver com dúvidas ou encontrar dificuldades a branch *exercise-asynctask-completed* contém o código completo com todos os TODO's resolvidos.
-
+## Screenshots
+![Screenshot](screenshots/AstroList.png)
